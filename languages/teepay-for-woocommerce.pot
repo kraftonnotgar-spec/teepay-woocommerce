@@ -1,0 +1,361 @@
+# Copyright (C) 2026 TeePay
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: TeePay for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/teepay-for-woocommerce\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-03T09:05:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Domain: teepay-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: teepay-for-woocommerce.php
+msgid "TeePay for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: teepay-for-woocommerce.php
+msgid "Accept M-Pesa, Airtel Money, Mixx by Yas and HaloPesa payments in Tanzania with TeePay hosted checkout or a mobile money prompt."
+msgstr ""
+
+#. Author of the plugin
+#: teepay-for-woocommerce.php includes/class-teepay-wc-gateway.php:20
+msgid "TeePay"
+msgstr ""
+
+#: includes/class-teepay-wc-blocks-support.php:72 includes/class-teepay-wc-gateway.php:314
+msgid "SANDBOX MODE: no money will move."
+msgstr ""
+
+#: includes/class-teepay-wc-blocks-support.php:82 includes/class-teepay-wc-gateway.php:330
+msgid "Mobile money number"
+msgstr ""
+
+#: includes/class-teepay-wc-blocks-support.php:83 includes/class-teepay-wc-gateway.php:332
+msgid "We will send a payment prompt to this number. Approve it with your PIN."
+msgstr ""
+
+#: includes/class-teepay-wc-blocks-support.php:84 includes/class-teepay-wc-gateway.php:348 includes/class-teepay-wc-gateway.php:388
+msgid "Enter a valid Tanzanian mobile money number, for example 0712 345 678."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:21
+msgid "Accept M-Pesa, Airtel Money, Mixx by Yas and HaloPesa in Tanzania. Customers pay on the TeePay hosted checkout, or approve a prompt sent to their phone."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:57
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:59
+msgid "Enable TeePay mobile money"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:63
+msgid "Title"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:65
+msgid "The payment method name customers see at checkout."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:66
+msgid "Mobile money"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:70
+msgid "Description"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:72
+msgid "Shown below the payment method at checkout."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:73
+msgid "Pay with M-Pesa, Airtel Money, Mixx by Yas or HaloPesa."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:77
+msgid "Payment flow"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:82
+msgid "TeePay hosted checkout (recommended)"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:83
+msgid "Mobile money prompt on this site"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:85
+msgid "Hosted checkout sends customers to a TeePay page to pay. The prompt flow asks for a Tanzanian mobile number at checkout and sends the payment prompt directly; your TeePay account must have mobile money push enabled."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:88
+msgid "API keys and webhooks"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:93
+msgid "Sandbox mode"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:95
+msgid "Use the sandbox key (tp_test_)"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:97
+msgid "Sandbox keys check your connection and settings. TeePay moves money in live mode only, so test a real payment with a small live amount."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:100
+msgid "Live secret key"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:102
+msgid "Starts with tp_live_. Needs the collection:create and collection:read scopes."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:107
+msgid "Live webhook signing secret"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:109
+msgid "From Developers > Webhooks in the TeePay dashboard (whsec_...)."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:114
+msgid "Sandbox secret key"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:116
+msgid "Starts with tp_test_."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:121
+msgid "Sandbox webhook signing secret"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:123
+msgid "The signing secret for the sandbox environment."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:128
+msgid "Payment profile ID (optional)"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:132
+msgid "The TeePay payment profile whose branding, return URL and webhook URL this store uses. Leave empty to use your default profile."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:135
+msgid "Debug log"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:137
+msgid "Log TeePay events"
+msgstr ""
+
+#. translators: %s: log source name
+#: includes/class-teepay-wc-gateway.php:141
+#, php-format
+msgid "Writes to WooCommerce > Status > Logs (source \"%s\"). Keys, secrets and phone numbers are removed. Errors are always logged."
+msgstr ""
+
+#. translators: 1: webhook URL, 2: return URL
+#: includes/class-teepay-wc-gateway.php:156
+#, php-format
+msgid "In the TeePay dashboard, open Payment profiles and set the profile this store uses: Webhook URL %1$s and Return URL %2$s. Then create the webhook signing secret under Developers > Webhooks and paste it below."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:190
+msgid "Saved. Leave blank to keep it."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:190
+msgid "Not set"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:192
+msgid "Remove the saved value"
+msgstr ""
+
+#. translators: %s: field name
+#: includes/class-teepay-wc-gateway.php:228
+#, php-format
+msgid "%s was not saved because it is not in the expected format."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:248
+msgid "The payment profile ID must be a UUID from the TeePay dashboard."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:283
+msgid "Sandbox mode is on. Sandbox keys verify your connection only; TeePay moves money in live mode only. Turn sandbox mode off and test with a small live payment before you launch."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:380
+msgid "We could not find your order. Please try again."
+msgstr ""
+
+#. translators: %s: masked phone number
+#: includes/class-teepay-wc-gateway.php:395
+#, php-format
+msgid "TeePay mobile money prompt sent to %s. Waiting for the customer to approve it."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:414
+msgid "Mobile money payment could not be started. Please try again or choose another payment method."
+msgstr ""
+
+#. translators: 1: error code, 2: TeePay request ID
+#: includes/class-teepay-wc-gateway.php:449
+#, php-format
+msgid "TeePay could not start the payment (%1$s, request ID %2$s)."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:462
+msgid "This amount cannot be paid with mobile money. Please choose another payment method."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:465
+msgid "Mobile money is not available for this currency. Please choose another payment method."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:468
+msgid "We could not reach the payment service. Please try again in a moment."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:487
+msgid "Your mobile money payment was received. Thank you."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:493 includes/class-teepay-wc-gateway.php:524
+msgid "Your mobile money payment was not completed."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:495
+msgid "Try again"
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:500
+msgid "We are reviewing your payment and will update your order shortly."
+msgstr ""
+
+#. translators: %s: masked phone number
+#: includes/class-teepay-wc-gateway.php:508
+#, php-format
+msgid "We sent a payment prompt to %s. Enter your mobile money PIN on your phone to approve it. This page updates automatically."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:511
+msgid "We are waiting for TeePay to confirm your payment. This page updates automatically."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:523
+msgid "Payment received. Updating your order..."
+msgstr ""
+
+#: includes/class-teepay-wc-gateway.php:525
+msgid "Still waiting for confirmation. We will email you when the payment is confirmed."
+msgstr ""
+
+#: includes/class-teepay-wc-order-service.php:444
+msgid "The TeePay checkout expired without a payment."
+msgstr ""
+
+#: includes/class-teepay-wc-order-service.php:495
+msgid "The customer cancelled the mobile money prompt."
+msgstr ""
+
+#: includes/class-teepay-wc-order-service.php:496
+msgid "The mobile money payment did not complete."
+msgstr ""
+
+#. translators: 1: TeePay payment reference, 2: what triggered the check, e.g. webhook
+#: includes/class-teepay-wc-order-service.php:520
+#, php-format
+msgid "TeePay payment confirmed by an authenticated status read. Payment reference: %1$s (checked after: %2$s)."
+msgstr ""
+
+#. translators: 1: TeePay payment reference, 2: reason code
+#: includes/class-teepay-wc-order-service.php:552
+#, php-format
+msgid "TeePay reports payment %1$s, but its amount or currency does not match this order (%2$s). The order was not marked paid. Reconcile it in the TeePay dashboard before shipping."
+msgstr ""
+
+#. translators: 1: order number, 2: store name
+#: includes/class-teepay-wc-order-service.php:677
+#, php-format
+msgid "Order #%1$s at %2$s"
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:92
+msgid "Settings"
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:216
+msgid "Your mobile money payment was not completed. Please try again."
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:264
+msgid "Every 15 minutes (TeePay)"
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:311
+msgid "Add your live secret key (tp_live_) to accept payments."
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:312
+msgid "Add your sandbox secret key (tp_test_) or turn sandbox mode off."
+msgstr ""
+
+#. translators: 1: error code, 2: request ID
+#: includes/class-teepay-wc-plugin.php:329
+#, php-format
+msgid "TeePay did not accept this key (%1$s, request ID %2$s). Check that the key is current and belongs to the selected environment."
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:344
+msgid "Connected to TeePay sandbox. This key cannot create payments in sandbox; test a real payment in live mode with a small amount."
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:345
+msgid "Connected to TeePay, but this key cannot create payments for the selected payment flow yet. Check the key scopes and your account approval in the TeePay dashboard."
+msgstr ""
+
+#. translators: 1: environment, 2: currency codes
+#: includes/class-teepay-wc-plugin.php:353
+#, php-format
+msgid "Connected to TeePay (%1$s). Currencies enabled: %2$s."
+msgstr ""
+
+#. translators: %s: TeePay request ID
+#: includes/class-teepay-wc-plugin.php:384
+#, php-format
+msgid "TeePay has restricted your account, so new mobile money payments cannot be started. Your customers see a general \"payment unavailable\" message and the payment method is paused at checkout. Check your email or the TeePay dashboard for next steps, or contact TeePay support with request ID %s."
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:403
+msgid "TeePay:"
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:406
+msgid "Check again"
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:418
+msgid "You do not have permission to do this."
+msgstr ""
+
+#: includes/class-teepay-wc-plugin.php:436
+msgid "TeePay for WooCommerce requires WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-teepay-wc-restriction.php:93
+msgid "Mobile money payment is unavailable right now. Please choose another payment method or try again later."
+msgstr ""
