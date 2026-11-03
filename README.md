@@ -1,5 +1,7 @@
 # TeePay for WooCommerce
 
+[![CI](https://github.com/kraftonnotgar-spec/teepay-woocommerce/actions/workflows/ci.yml/badge.svg)](https://github.com/kraftonnotgar-spec/teepay-woocommerce/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/license-GPL--2.0--or--later-green.svg)](LICENSE)
+
 ![TeePay for WooCommerce](.wordpress-org/banner-1544x500.png)
 
 Accept **M-Pesa, Airtel Money, Mixx by Yas and HaloPesa** in Tanzania (TZS) on WooCommerce with [TeePay](https://teepay.me).
